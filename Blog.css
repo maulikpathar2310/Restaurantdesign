@@ -1,0 +1,134 @@
+  .div-back{
+     background-image: url('image/2.jpg');
+     opacity: 0.9;
+   }
+
+   .nav-item:hover{
+    border-top: 4px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+    padding: 2px 2px;
+    border-radius: 2px;
+  }
+  
+  body{
+     background-image: url('image/wa-16.gif');
+    
+    font-family:'Playfair Display', serif;
+  }
+  .nav-item{
+   transition: all 0.6s ease 0s; 
+   font-family:'Playfair Display', serif;
+   letter-spacing: 3px;
+ }
+ /* Add a gray background color with some padding */
+ 
+ /* Header/Blog Title */
+ .header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  font-size: 40px; 
+  background-image: url("112.jpg");
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:;
+  width: 100%;
+  padding: 35px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+ background-color: black;
+ padding: 20px;
+ margin-top: 20px;
+ color:white;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card img{
+  border:2px solid #fff;
+  border-radius: 2%;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("115.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%
+}
+
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+}

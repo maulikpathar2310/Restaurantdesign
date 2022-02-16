@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8"><!-- 
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Restaurant</title>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+   
+   <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css" href="css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+   <link rel="stylesheet" type="text/css" href="css/animate copy.css">
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <style >
+    .div-back{
+     background-image: url(image/1.png);
+     opacity: 0.9;
+   }
+   .nav-item:hover{
+    border-top: 4px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+    padding: 2px 2px;
+    border-radius: 2px;
+  }
+  body{
+
+   background-image: url('image/wa-16.gif');
+   font-family:'Playfair Display', serif;
+ }
+ .nav-item{
+   transition: all 0.6s ease 0s; 
+   font-family:'Playfair Display', serif;
+   letter-spacing: 3px;
+ } 
+
+
+ /*google map*/
+ 
+ .map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.txt i{
+  color:#00cccc;
+  font-size: 150%;
+}
+</style> 
+
+</head> 
+
+<body>
+  <div>
+    <section> 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="image/im-50.png" width="4%" height="4%" style="border-radius: 50%; border:2px solid #ffff; margin:4px 20px 3px 4px;">
+        <a class="navbar-brand" href="#"><b>P@th@r R.</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul  class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="About us.html">About us</a>
+            </li>
+            <li class="nav-item">
+
+             <!-- ###drpdown#### -->
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                Menu
+              </a>
+              <div style="background-color: #343A40;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a style="color: #fff;" class="dropdown-item" href="gujaratithali.html">Gujarati dish</a>
+                <a style="color: #fff;"class="dropdown-item" href="Panjabithali.html">Panjabi dish</a>
+                <a style="color: #fff;"class="dropdown-item" href="keralthali.html">keral dish</a>
+                <a style="color: #fff;"class="dropdown-item" href="chinesethali.html">chinese dish</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Photography.html">Photography</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Contact us.html">Contact us</a>
+            </li>
+
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+
+            <button  class="btn  my-2 my-sm-0" type="submit"><a style="color:#343A40;background-color: #fff;padding:13%;border: 2px solid #000; border-radius:10%; font-family:'Playfair Display', serif;" href="Login.html"><b>Login</b></a></button>
+          </form>
+        </div>
+      </nav>
+    </section>
+    <!-- contact us -->
+    <section>
+      <div class="div-back">
+        <h1 class="wow fadeInDown" style="font-size: 100px;margin:10% 0 3% 30%;color:#4d0026;">Contact Us</h1>
+        <div class="header-buttons">
+          <a class="wow fadeInUp" href="#">Order Now +</a>s
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- google map -->
+
+    <section>
+      <!--Section: Contact v.1-->
+      <section class="section pb-5">
+
+        <!--Section heading-->
+        <h2 class="section-heading h1 pt-4" class="wow fadeInUp"style="color: #fff;margin:0 0 10% 40%;">Contact us</h2>
+        <!--Section description-->
+
+
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-5 mb-4">
+
+            <!--Form with header-->
+            <div class="card ">
+
+              <div class="card-body">
+                <!--Header-->
+                <div class="form-header blue accent-1">
+                  <h3 class="wow fadeInUp"><i class="fas fa-envelope"></i> Write to us:</h3>
+                </div>
+
+                <br>
+
+                <!--Body-->
+                <div class="md-form wow fadeInUp" >
+                  <i class="fas fa-user prefix grey-text"></i>&nbsp;<label for="form-name"> name :</label>
+                  <input type="text" id="form-name" class="form-control">
+
+                </div><br>
+
+                <div class="md-form  wow fadeInUp">
+                  <i class="fas fa-envelope prefix grey-text"></i>&nbsp; <label for="form-email"> email :</label>
+                  <input type="text" id="form-email" class="form-control">
+
+                </div><br>
+
+                <div class="md-form  wow fadeInUp">
+                 <i class="fas fa-phone"></i>&nbsp;<label for="form-text">Mo. Number :</label>
+                 <input type="number" id="form-text" class="form-control">
+
+               </div><br>
+
+               <div class="md-form  wow fadeInUp">
+                <i class="fas fa-calendar-alt"></i>&nbsp;<label for="form-text">Calander :</label>
+                <input type='text' class="form-control" id='datetimepicker4' />
+
+              </div><br>
+
+              <div class="text-center mt-4">
+                <button type="button" class="btn btn-primary  wow fadeInUp">Submit</button>
+              </div>
+
+            </div><br>
+
+          </div>
+          <!--Form with header-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-7">
+
+          <!--Google map-->
+          <div id="map-container-google-11" class="z-depth-1-half map-container-6  wow fadeInUp" style="height: 400px">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6711.929614065836!2d73.31074201897496!3d23.471088003102164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395df1b72e6d5345%3A0xf9e9abe7116f85e0!2sPalate%20Restaurant!5e0!3m2!1sen!2sin!4v1598418061494!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div>
+
+         <br>
+         <!--Buttons-->
+         <div class="row text-center txt " style="color: #fff;">
+          <div class="col-md-4  wow fadeInUp" >
+            <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+            <p>palate Restaurant, <br>Decent hostel<br>Modasa, Gujarat.</p>
+
+          </div>
+
+          <div class="col-md-4  wow fadeInUp">
+            <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+            <p>72019 44748</p>
+            <p>Mon - Fri,<br> 8:00AM-22:00PM</p>
+          </div>
+
+          <div class="col-md-4  wow fadeInUp">
+            <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+            <p>maulikpathar26@gmail.com</p>
+            <p>yagniksutariya37@gmail.com</p>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+
+  </section>
+  <!--Section: Contact v.1-->  
+</section>
+
+      <!--------######---footer section start here----##
+        ############################################----->
+
+        <footer class="footersection" id="footerdiv">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-md-6 col-12 footer-div">
+
+                <div class="mt-4">
+                  <h3 class=" mt-4"> Pathar restaurant </h3>
+
+                  <div class="line-up">
+                    <span class="line-one"></span>
+                    <span class="line-two"></span>
+                  </div>
+
+                  <p>Welcome to Pathar resturant, We are here to serve best and healthy food our multitalented and true friendly staff are wainting you to give a best services ThankYou.
+                  </p>
+                </div>
+
+                <div  class="social">
+
+
+                  <a href="#" class="fb">
+                    <i style="color: #fff;font-size: 40px;margin-right: 15px;" class="fab fa-facebook-square"></i>
+
+                  </a>
+                  <a href="#">
+                   <i style="color: #fff;font-size: 40px;margin-right: 15px;"class="fab fa-instagram-square"></i>
+
+                 </a>
+                 <a href="https://api.whatsapp.com/send?phone=+917201944748">
+                  <i style="color: #fff;font-size: 40px;margin-right: 15px;" class="fab fa-whatsapp-square"></i>
+
+                </a>
+                <a href="#">
+                  <i style="color: #fff;font-size: 40px;margin-right: 15px;" class="fab fa-twitter-square"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-12 px-5 footer-div">
+              <div>
+                <h3 class="mt-4"> Our Food </h3>
+                <div class="line">
+                  <span class="line-one"></span>
+                  <span class="line-two"></span>
+                </div>
+                <ul class="footer_service">
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">Gujrti Dish</a></li>
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2 " aria-hidden="true"></i><a href="">Punjabi Dish</a></li>
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">keral Dish</a></li>
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">chinees Dish</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="line-down">
+            <span class="line-three"></span>
+            <span class="line-four"></span>
+          </div>
+
+          <div class="footer_contect py-4">
+
+
+            <li class="contect-footer"><i class="fa fa-phone call  text-info px-2" aria-hidden="true"></i> <a href="#">+9913 447604</a>
+            </li>
+
+            <li class="contect-footer"><i class="fa fa-envelope text-info px-2" aria-hidden="true">
+            </i><a href=" "> maulikpathar@gmail.com<br></a>
+          </li>
+
+          <div class="text-white text-center contect-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i style="color:#00cccc;" class="fas fa-map-marker-alt"></i>
+            <strong>Address :-</strong> Decent hostel,pathar Restaurant ,Modasa, Gujarat.
+          </div>
+        </div>
+
+
+        <div class="mt-5 text-center">
+          <p>2020 © Pathar Restaurant. All Rights Reserved.</p>
+        </div>
+
+
+        <div class="scrolltop float-right">
+          <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <section>
+    <a href="https://api.whatsapp.com/send?phone=+917201944748" style="position:fixed;bottom:10%;right:5px;margin:0;padding:5px 3px;">
+      <i style="color:#d2d2d2;font-size: 30px;margin-right: 15px;" class="fas fa-arrow-circle-up"></i>
+
+    </button>
+  </a>
+</section>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();
+</script>
+<script type="text/javascript">
+  $(function () {
+    $('#datetimepicker4').datetimepicker();
+  });
+</script>
+</body>
+
+
+</html>

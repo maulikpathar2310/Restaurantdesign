@@ -1,0 +1,41 @@
+ .div-back{
+     background-image: url(image/1.png);
+     opacity: 0.9;
+   }
+   .nav-item:hover{
+    border-top: 4px solid whitesmoke;
+    border-bottom: 4px solid whitesmoke;
+    padding: 2px 2px;
+    border-radius: 2px;
+  }
+  body{
+
+   background-image: url('image/wa-16.gif');
+   font-family:'Playfair Display', serif;
+ }
+ .nav-item{
+   transition: all 0.6s ease 0s; 
+   font-family:'Playfair Display', serif;
+   letter-spacing: 3px;
+ } 
+  
+  
+/*google map*/
+ 
+.map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.txt i{
+  color:#00cccc;
+  font-size: 150%;
+}

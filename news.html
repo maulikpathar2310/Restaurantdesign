@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css" href="css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="index.css"> 
+   <link rel="stylesheet" type="text/css" href="css/animate.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.js">
+   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+   <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css" href="css/util.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>  
+    a:hover{
+      border-top: 3px solid whitesmoke;
+      border-bottom: 3px solid whitesmoke;
+      padding: 10px 10px;
+      border-radius: 4px;
+    }
+    a{
+     transition: all 0.6s ease 0s; 
+     font-family:'Playfair Display', serif;
+     letter-spacing: 3px;
+   } 
+   * {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  font-size: 40px; 
+  background-image: url("112.jpg");
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:;
+  width: 100%;
+  padding: 35px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: black;
+   padding: 20px;
+   margin-top: 20px;
+   color:white;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("115.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%
+}
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+
+</style>
+</head>
+<body class="parallax">
+<div>
+    <section> 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="image/im-50.png" width="4%" height="4%" style="border-radius: 50%; border:2px solid #ffff; margin:4px 20px 3px 4px;">
+        <a class="navbar-brand" href="#"><b>Restaurant</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul  class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Restaurant</a>
+            </li>
+            <li class="nav-item">
+
+             <!-- ###drpdown#### -->
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Gujarati dish</a>
+                <a class="dropdown-item" href="menu.html">Panjabi dish</a>
+                <a class="dropdown-item" href="#">keral dish</a>
+                <a class="dropdown-item" href="#">chinese dish</a>
+
+              </li>
+
+              <a class="nav-link text-white" href="#">Photography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact us</a>
+            </li>
+          </ul>
+ 
+
+ <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+          </form>
+        </div>
+      </nav>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</div>
+
+<div class="header">
+  <h2><b>FOOD BLOGS</b></h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>DELICIOUS FOODS</h2>
+      <h5>india, aug 1, 2020</h5>
+      <div class="fakeimg"><img src="image/116.JPG" ; width="100%"></div>
+      <p style="font-size: 40px"><b>BURGER</b></p>
+      <p>Every once in a while I feel like eating a big, fat, drippy, messy, snake-jaw burger like this one, but the vast majority of the time, I'll take a thin, griddled smash burger. In fact, I love them so much that I've opened up two different restaurants that serve them. The first is Harlem Shake in New York (I swear, the place was named before the meme), which has been serving smashed burgers as its mainstay since 2013. When my partner and I opened up Wursthall in 2018, at first we resisted putting a burger on the menu, as we wanted guests to focus on the sausages. But in the end we said f%&k it. People are asking for a burger, we have the equipment and the know-how, let's just do it. It was a wise move.</p>
+    </div>
+    <div class="card">
+      <h5>india, aug 2, 2020</h5>
+      <div class="fakeimg"><img src="image/117.JPG" ; width="100%"></div>
+      <p style="font-size: 40px"><b>ICE-CREAMS</b></p>
+      <p>When the thermometer shoots into the 90s, we can hardly bring ourselves to turn on the stove, much less fire up the oven. Fortunately, we've got a solid repertoire of no-bake (or no-cook-at-all) desserts that are refreshing to eat and mercifully cool to make. If you're struggling with the heat or just want some easy, delicious sweets, check out 17 of our favorite no-bake desserts—whether it's a five-minute fruit mousse, a cheesecake multiple ways, or a chocolate cake you can make using only a microwave.</p>
+    </div>
+    <div class="card">
+      <h5>india, aug 12, 2020</h5>
+      <div class="fakeimg"><img src="image/1111.JPG" ; width="100%"></div>
+      <p style="font-size: 40px"><b>PEACH COBBLERS</b></p>
+      <p>Please, summer, don’t leave us.  WE NEED YOU. We need fresh peach cobblers resting warm out of the oven on our counters. We need it scooped into bowls and swimming with a plop of melty vanilla ice cream, and we need it cold in our fridge asking us – demanding us – to eat peach cobbler for breakfast.Which we will obviously do because we are not monsters. Peach cobbler is in charge here.</p>
+    </div>
+    <div class="card">
+      <h5>india, aug 14, 2020</h5>
+      <div class="fakeimg"><img src="image/119.JPG" ; width="100%"></div>
+      <p style="font-size: 40px"><b>LEMON HERB PASTA SALAD WITH MARINATED CHICKPEAS</b></p>
+      <p>The basics – garlic, lemon, herbs, olive oil – are prepared to deliver. They are usually somewhere in the pantry or fridge, and they are always going to serve us well.
+
+I give you Exhibit A: The Lemon Herb Pasta Salad with Marinated Chickpeas which involves deliciously squishy pasta coated in a silky “sauce” of olive oil and lemon juice, tossed with chickpeas that have been soaking in a flavor bath of fresh garlic and herbs and such, and finished with more herbs and lots of salt and pepper and some Parmesan cheese. Is it good warm? Is it good cold? Is it good as a side or a main or a… snack? The answer to all of the above is Y-E-S.
+
+This is all you need:
+<ul><li>Chewy, tender, appropriately noodley pasta</li>
+<li>Hearty little chickpeas</li>
+<li>Olive oil</li>
+<li>Lemon juice</li>
+<li>Basil and parsley</li>
+<li>GARRRRLIC</li>
+<li>Salt and pepper</li>
+<li>Parmesan cheese</li></ul>
+</p>
+    </div>
+    <div class="card">
+      <h5>india, aug 18, 2020</h5>
+      <div class="fakeimg"><img src="image/120.JPG" ; width="100%"></div>
+      <p style="font-size: 40px"><b>LEMON HERB SALMON BURGERS</b></p>
+      <p>So like I said, this would never be something I’d be all that inclined to come up with on my own, but lucky for me (and you!), I went to California a few months ago and got together with a bunch of genius food bloggers who actually scraped together our salmon leftovers from dinner to make salmon burgers the next day at lunch. Say whaaaat? I was in shock and awe at the deliciousness of salmon in burger form.
+
+One of the bloggers who was there, Gina from the amazing Skinnytaste, went home and wrote up the recipe for the salmon burgers and I knew as soon as I saw it that I had to had to had to try it on my own.
+
+Of course, I couldn’t not give the salmon burgers a really summery feel with lemon and herbs, and in keeping in line with the salmon burger fancy healthy vibe, I had to eat it on a pear, gorgonzola, and almond spinach salad topped with an herb-loaded dressing. HI THERE YUMMY.
+
+You guys, I’m about to blow your mind. We actually have DeLallo to thank for the easy salad prep. Those dried pears, gorgonzola crumbles, and toasted almonds are already packed up and ready for us in this Bold DeLallo SaladSavors® dealio which can be found in the refrigerated produce section of the grocery store. I can’t even tell you how often I use these – mostly for last minute friends-are-coming-over dinners when all I need to do is toss them with some spinach and a little vinaigrette. Yes please.</p>
+    </div>
+    <div class="card">
+      <h5>india, aug 20, 2020</h5>
+      <div class="fakeimg"><img src="image/121.JPG" ; width="100%"></div>
+      <p style="font-size: 40px"><b>ROASTED TOMATO PUTTANESCA</b></p>
+      <p>Tangy, briney, and peak stand-over-the-stove-eating-out-of-the-pan goodness.
+
+This low-key puttanesca is a marriage of steamy, sticky noodles, and a silky, olive-oil-heavy, garlicky sauce made with loads of fresh vegetables (yes, vegetables). A knob of butter gets melted into the noodles / sauce to turn up the sauciness, and then, for its final act, the whole thing gets jazzed up with lemon and capers and maybe olives, if you like. It can be topped with some fresh parsley, but also, a little more lemon, salt, and pepper because no, sorry, we don’t quit.
+
+It’s zippy and buttery and fresh all rolled into one. I love it so much.
+
+Plus! Like all good recipes in my life right now, it’s stupidly easy to make.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2><br>
+      <h3>PATHAR'S RESTAURENT</h3>
+      <div class="fakeimg"><img src="image/mm.jpg" ; width="100%"></div>
+
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><img src="image/blog1.png" ; width="100%"></div><br>
+      <div class="fakeimg"><img src="image/blog2.png" ; width="100%"></div><br>
+      <div class="fakeimg"><img src="image/blog3.png" ; width="100%"></div><br>
+      <div class="fakeimg"><img src="image/115.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/122.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/123.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/124.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/125.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/126.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/127.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/128.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/129.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/130.jpeg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/131.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/132.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/133.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/134.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/135.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/136.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/137.jpg" ; width="100%"></div>
+      <div class="fakeimg"><img src="image/138.jpg" ; width="100%"></div>
+
+    </div>
+    <div class="card">
+      <h3>Follow Us</h3>
+      <p> <div>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-skype"></a>
+        </div></p>
+    </div>
+    <div class="card">
+      <h3>VIDEOS</h3>
+    <video  controls>
+  <source src="" >
+  
+</video><br>
+<video  controls>
+  <source src="https://www.youtube.com/watch?v=R9YM_8rUWAM" >
+ 
+  
+</video><br>
+<video controls>
+  <source src="https://www.youtube.com/watch?v=R9YM_8rUWAM" >
+  
+</video>
+</div>
+  </div>
+</div>
+
+
+
+ <!--------######---footer section start here----##
+  ############################################----->
+  <footer class="footersection" id="footerdiv">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-6 col-12 footer-div">
+
+          <div class="mt-4">
+            <h3 class=" mt-4"> Pathar restaurant </h3>
+
+            <div class="line-up">
+              <span class="line-one"></span>
+              <span class="line-two"></span>
+            </div>
+
+            <p>Welcome to Pathar resturant, We are here to serve best and healthy food our multitalented and true friendly staff are wainting you to give a best services ThankYou.
+            </p>
+          </div>
+
+         <div>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-skype"></a>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 col-12 px-5 footer-div">
+        <div>
+          <h3 class="mt-4"> Our Food </h3>
+          <div class="line">
+            <span class="line-one"></span>
+            <span class="line-two"></span>
+          </div>
+          <ul class="footer_service">
+            <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">Gujrti Dish</a></li>
+            <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2 " aria-hidden="true"></i><a href="">Punjabi Dish</a></li>
+            <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">keral Dish</a></li>
+            <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">chinees Dish</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="line-down">
+      <span class="line-three"></span>
+      <span class="line-four"></span>
+    </div>
+
+    <div class="footer_contect py-4">
+
+
+      <li class="contect-footer"><i class="fa fa-phone call  text-info px-2" aria-hidden="true"></i> <a href="#">+72019 44748</a>
+      </li>
+
+      <li class="contect-footer"><i class="fa fa-envelope text-info px-2" aria-hidden="true">
+      </i><a href=" "> maulikpathar@gmail.com</a>
+    </li>
+
+    <li class="text-white  text-center contect-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i style="color:#00cccc;" class="fas fa-map-marker-alt"></i>
+      <strong>Address :-</strong> Decent hostel,pathar Restaurant ,Modasa, Gujarat.
+    </li>
+      <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6tBMyeUBRH1_9FXtxNl5oRLEUsGOlmnc&callback=initMap">
+    </script>
+  </div>
+
+
+  <div class="mt-5 text-center">
+    <p>2020 © Pathar Restaurant. All Rights Reserved.</p>
+  </div>
+
+</footer>
+</section>
+</div>
+
+</body>
+</html> 

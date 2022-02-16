@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8"><!-- 
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Restaurant</title>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css" href="css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/animate copy.css">
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <link rel="stylesheet" type="text/css" href="about us.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+
+ <body>
+  <div>
+    <section> 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="image/im-50.png" width="4%" height="4%" style="border-radius: 50%; border:2px solid #ffff; margin:4px 20px 3px 4px;">
+        <a class="navbar-brand" href="#"><b>P@th@r R..</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul  class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about us.html">About us</a>
+            </li>
+            <li class="nav-item">
+
+             <!-- ###drpdown#### -->
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                Menu
+              </a>
+              <div style="background-color: #343A40;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a style="color: #fff;" class="dropdown-item" href="gujaratithali.html">Gujarati dish</a>
+                <a style="color: #fff;"class="dropdown-item" href="Panjabithali.html">Panjabi dish</a>
+                <a style="color: #fff;"class="dropdown-item" href="keralthali.html">keral dish</a>
+                <a style="color: #fff;"class="dropdown-item" href="chinesethali.html">chinese dish</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Photography.html">Photography</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Contact us.html">Contact us</a>
+            </li>
+
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+
+            <button  class="btn  my-2 my-sm-0" type="submit"><a style="color:#343A40;background-color: #fff;padding:13%;border: 2px solid #000; border-radius:10%; font-family:'Playfair Display', serif;" href="Login.html"><b>Login</b></a></button>
+          </form>
+        </div>
+      </nav>
+    </section>
+
+    <!-- attachment -->
+    <section>
+      <div class="div-back "  >
+        <h1 style="margin-left: 40%;" class="wow fadeInDown">About Us</h1>
+        <div class="header-buttons">
+          <a class="wow fadeInUp " href="#">Order Now +</a>s
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <div class="container">
+
+      <h2 class="wow fadeInUp" style="text-align:center;color: #fff; font-family:'Playfair Display', serif;margin:5% 0 5% 0">ABOUT US</h2>
+
+
+      <div  class="slideshow-container wow fadeInUp" >
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image/164.jpg" style="width:100%" width="900" height="500">
+          <div class="text"><h1>inside</h1></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image/165.jpg" style="width:100%" width="900" height="500">
+          <div class="text"><h1>table preview</h1></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image/166.jpg" style="width:100%" width="900" height="500">
+          <div class="text"><h1>outside</h1></div>
+        </div>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot" ></span> 
+        <span class="dot" ></span> 
+      </div>
+
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+<br>
+<!-- box 1 -->
+<section class="bx wow fadeInUp">
+  <div class="container">
+   <div style="background-color:  #e6e6e6;" class="jumbotron text-center hoverable  p-4 border types">
+
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-4 offset-md-1 mx-3 my-3">
+        <!-- Featured image -->
+        <div class="view overlay">
+          <img style="border-radius: 0 60px 0 60px; height: 400px; width: 350px; " src="image/im-44.jpg" class="img-fluid img-thumbnail border-0 wow fadeInDown"   alt="Sample image for first version of blog listing">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-7 text-md-left ml-3 mt-4">
+        <!-- Excerpt -->
+
+        <h3 style=" font-family: 'Playfair Display', serif;font-size: 35px;" class="mb-4 wow fadeInUp">
+        Restaurant</h3>
+
+        <ul>
+          <li>
+            <p  class="wow fadeInUp" style=" font-family: 'Playfair Display', serif;margin-bottom: 50px;"><b>A restaurant (sometimes known as a diner) is a place where cooked food is sold to the public, and where people sit down to eat it. It is also a place where people go to enjoy the time and to eat a meal.
+            </b></p>
+          </li>
+          <li>
+
+            <h3 class="wow fadeInUp">Categories of restaurants :-</h3>
+            
+          </li>
+        </ul>
+        <ol>
+          <p class="wow fadeInUp">
+            <li>Ethnic</li>
+            <li>Fast food</li>
+            <li>Fast casual</li>
+            <li>Casual dining</li>
+          </p>
+        </ol>
+        <div class="header-btn">
+
+          <a class="wow fadeInUp" style="color: #fff;" href="Panjabithali.html">Know more+</a>
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+</div>
+</section>
+
+<!-- m& y -->
+<div class="row">
+  <div class="column">
+    <div class="card wow fadeInUp" style="color: #0000;background-color: #cccccc;">
+      <div class="center">
+        <div class="responsive">
+          <img src="image/mr-1.jpg" ;  class="rounded-circle wow fadeInUp "  width="200" height="200">
+        </div>
+      </div>
+      <div class="container" style="color: #000; font-family:'Playfair Display', serif;">
+        <h1 class="wow fadeInUp">MAULIK PATHAR</h1>
+        <p class="title wow fadeInUp"> Founder,</p>
+        <p class="wow fadeInUp">PATHAR'S RESTAURENT</p>
+        <div class="wow fadeInUp" style="margin: 24px 0;">
+         <a href="#" class="fa fa-skype"></a>
+         <a href="#"><i class="fa fa-twitter"></i></a>  
+         <a href="#" class="fa fa-instagram"></a>  
+         <a href="#"><i class="fa fa-facebook"></i></a> 
+       </div>
+       <p class="wow fadeInUp"><button>Contact</button></p>
+     </div>
+   </div>
+ </div>
+
+ <div class="column">
+  <div class="card wow fadeInUp" style="color: #0000;background-color: #cccccc;" >
+    <div class="center">
+      <div class="responsive">
+        <img src="image/hitesh.jpg" ;  class="rounded-circle wow fadeInUp"  width="200" height="200">
+      </div>
+    </div>
+    <div style="color: #000; font-family:'Playfair Display', serif;" class="container">
+      <h1 class="wow fadeInUp">HITESH PATHAR</h1>
+      <p class="title wow fadeInUp">CO-Founder,</p>
+      <p  class="wow fadeInUp">ADVISER OF REATAURENT</p>
+      <div class="wow fadeInUp" style="margin: 24px 0;">
+        <a href="#" class="fa fa-skype"></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>  
+        <a href="#" class="fa fa-instagram"></a> 
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+      </div>
+      <p class="wow fadeInUp"><button>Contact</button></p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+      <!--------######---footer section start here----##
+        ############################################----->
+
+        <footer class="footersection" id="footerdiv">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-md-6 col-12 footer-div">
+
+                <div class="mt-4">
+                  <h3 class=" mt-4"> Pathar restaurant </h3>
+
+                  <div class="line-up">
+                    <span class="line-one"></span>
+                    <span class="line-two"></span>
+                  </div>
+
+                  <p>Welcome to Pathar resturant, We are here to serve best and healthy food our multitalented and true friendly staff are wainting you to give a best services ThankYou.
+                  </p>
+                </div>
+
+                <div  class="social">
+
+
+                  <a href="#" class="fb">
+                    <i style="color: #fff;font-size: 40px;margin-right: 15px;" class="fab fa-facebook-square"></i>
+
+                  </a>
+                  <a href="#">
+                   <i style="color: #fff;font-size: 40px;margin-right: 15px;"class="fab fa-instagram-square"></i>
+
+                 </a>
+                 <a href="https://api.whatsapp.com/send?phone=+917201944748">
+                  <i style="color: #fff;font-size: 40px;margin-right: 15px;" class="fab fa-whatsapp-square"></i>
+
+                </a>
+                <a href="#">
+                  <i style="color: #fff;font-size: 40px;margin-right: 15px;" class="fab fa-twitter-square"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-12 px-5 footer-div">
+              <div>
+                <h3 class="mt-4"> Our Food </h3>
+                <div class="line">
+                  <span class="line-one"></span>
+                  <span class="line-two"></span>
+                </div>
+                <ul class="footer_service">
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">Gujrti Dish</a></li>
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2 " aria-hidden="true"></i><a href="">Punjabi Dish</a></li>
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">keral Dish</a></li>
+                  <li class="line_icon"><i class="fa fa-arrow-circle-right text-info p-2" aria-hidden="true"></i><a href="">chinees Dish</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="line-down">
+            <span class="line-three"></span>
+            <span class="line-four"></span>
+          </div>
+
+          <div class="footer_contect py-4">
+
+
+            <li class="contect-footer"><i class="fa fa-phone call  text-info px-2" aria-hidden="true"></i> <a href="#">+9913 447604</a>
+            </li>
+
+            <li class="contect-footer"><i class="fa fa-envelope text-info px-2" aria-hidden="true">
+            </i><a href=" "> maulikpathar@gmail.com<br></a>
+          </li>
+
+          <div class="text-white text-center contect-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i style="color:#00cccc;" class="fas fa-map-marker-alt"></i>
+            <strong>Address :-</strong> Decent hostel,pathar Restaurant ,Modasa, Gujarat.
+          </div>
+        </div>
+
+
+        <div class="mt-5 text-center">
+          <p>2020 © Pathar Restaurant. All Rights Reserved.</p>
+        </div>
+
+
+        <div class="scrolltop float-right">
+          <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <section>
+    <a href="https://api.whatsapp.com/send?phone=+917201944748" style="position:fixed;bottom:10%;right:5px;margin:0;padding:5px 3px;">
+      <i style="color:#d2d2d2;font-size: 30px;margin-right: 15px;" class="fas fa-arrow-circle-up"></i>
+
+    </button>
+  </a>
+</section>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();
+</script>
+</body>
+
+
+</html>
